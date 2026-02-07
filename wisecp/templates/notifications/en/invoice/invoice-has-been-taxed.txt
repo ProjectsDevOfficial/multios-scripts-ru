@@ -1,6 +1,0 @@
-Your official invoice {invoice_num} has been prepared and uploaded to the system.
-
-You can download the original invoice below
-
-Invoice Image;
-{legal_invoice_download_link}

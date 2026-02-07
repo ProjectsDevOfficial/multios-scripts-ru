@@ -1,9 +1,0 @@
-Sn. {user_full_name}
-
-{order_name} siparişinize ait {origin_name} sms gönderici başlığı talebinizi maalesef kabul edemiyoruz.
-
-Kabul Edilmeme Nedeni;
-{reason}
-
-Aşağıdaki bağlantı üzerinden sms yönetim panelinize ulaşabilirsiniz.
-{origin_detail_link}

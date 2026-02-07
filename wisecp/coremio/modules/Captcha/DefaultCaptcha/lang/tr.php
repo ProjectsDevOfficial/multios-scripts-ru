@@ -1,4 +1,0 @@
-<?php
-    return [
-        'name' => "Varsayılan",
-    ];

@@ -1,3 +1,0 @@
-Dear {user_full_name}
-
-Your Verification Code: {activation_code}

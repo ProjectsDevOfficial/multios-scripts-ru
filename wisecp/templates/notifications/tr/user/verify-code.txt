@@ -1,3 +1,0 @@
-Sn. {surname},
-Hesabınızı onaylamak için onay kodunuz: {verify_code}
-Saygılarımızla.
