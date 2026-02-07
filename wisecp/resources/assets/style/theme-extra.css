@@ -1,0 +1,26 @@
+.faturabilgisi .red-info h5{color:white}
+.red-info{color:white}
+.faturabilgisi .red-info{margin-top:-19px}
+.green-info i{font-size:135px;color:rgb(0 0 0 / 16%);margin:0;position:absolute;z-index: 5;left:-15px;top:-20px}
+.blue-info i{font-size:135px;color:rgb(0 0 0 / 16%);margin:0;position:absolute;z-index: 5;left:-15px;top:-20px}
+.red-info i{font-size:135px;color:rgb(0 0 0 / 16%);margin:0;position:absolute;z-index: 5;left:-15px;top:-20px}
+.green-info a{color:#fff;font-weight:700}
+.blue-info a{color:#fff;font-weight:700}
+.red-info p{margin:0;z-index: 7;position: relative;}
+.blue-info p{margin:0;z-index: 7;position: relative;}
+.green-info p{margin:0;z-index: 7;position: relative;}
+.red-info h5{margin:0;z-index: 7;position: relative;}
+.blue-info h5{margin:0;z-index: 7;position: relative;}
+.green-info h5{margin:0;z-index: 7;position: relative;}
+.red-info .padding20{padding:20px 15px;padding-left:25px}
+.blue-info .padding20{padding:20px 15px;padding-left:25px}
+.green-info .padding20{padding:20px 15px;padding-left:25px}
+.red-info .padding15 {padding:20px 15px;padding-left:25px}
+.blue-info .padding15{padding:20px 15px;padding-left:25px}
+.green-info .padding15{padding:20px 15px;padding-left:25px}
+.modal-foot-btn{float:left;width:100%;background:#f1f1f1;padding:19px;text-align:center}
+.modal-foot-btn .lbtn{padding:8px 25px}
+.modal-foot-btn .red{background:#F44336;color:white}
+.modal-foot-btn .red:hover{background:#d73c30;color:white}
+.modal-foot-btn .blue{background:#00bcd4;color:white}
+.modal-foot-btn .blue:hover{background:#08a4b8;color:white}

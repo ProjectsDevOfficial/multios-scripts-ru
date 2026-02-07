@@ -1,0 +1,157 @@
+@charset "utf-8";
+.lbtn i{border-right:1px solid #00000026;padding-right:10px;margin-right:6px}
+#neworderbtn i{border-right:1px solid #00000026;padding-right:10px;margin-right:6px}
+.sbtn{padding:0;width:30px;height:30px;line-height:30px;font-size:14px}
+#verticaltabs{width:100%}
+#verticaltabs #tab-module ul.tab{width:22%;margin-bottom:0px}
+#verticaltabs .tabcontent{width:74%}
+#verticaltabs ul.tab li a.active{color:white;background:#095174}
+#verticaltabs ul.tab li{width:100%}
+
+/* titillium-web-200 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-200.eot'); /* IE9 Compat Modes */
+  src: url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-200.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-200.woff') format('woff'), /* Modern Browsers */
+       url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-200.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-200.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+}
+/* titillium-web-300 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-300.eot'); /* IE9 Compat Modes */
+  src: url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-300.woff') format('woff'), /* Modern Browsers */
+       url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-300.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+}
+/* titillium-web-regular - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-regular.eot'); /* IE9 Compat Modes */
+  src: url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-regular.woff') format('woff'), /* Modern Browsers */
+       url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-regular.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+}
+/* titillium-web-600 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-600.eot'); /* IE9 Compat Modes */
+  src: url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-600.woff') format('woff'), /* Modern Browsers */
+       url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-600.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+}
+/* titillium-web-700 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-700.eot'); /* IE9 Compat Modes */
+  src: url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-700.woff') format('woff'), /* Modern Browsers */
+       url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../../resources/assets/fonts/titillium-web-v15-latin_latin-ext-700.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+}
+
+/* raleway-300 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-300.eot'); /* IE9 Compat Modes */
+  src: url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-300.woff') format('woff'), /* Modern Browsers */
+       url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-300.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+/* raleway-regular - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-regular.eot'); /* IE9 Compat Modes */
+  src: url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-regular.woff') format('woff'), /* Modern Browsers */
+       url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+/* raleway-500 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-500.eot'); /* IE9 Compat Modes */
+  src: url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-500.woff') format('woff'), /* Modern Browsers */
+       url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-500.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+/* raleway-700 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-700.eot'); /* IE9 Compat Modes */
+  src: url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-700.woff') format('woff'), /* Modern Browsers */
+       url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-700.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+/* raleway-800 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-800.eot'); /* IE9 Compat Modes */
+  src: url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-800.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-800.woff') format('woff'), /* Modern Browsers */
+       url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-800.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../../resources/assets/fonts/raleway-v28-latin_latin-ext-800.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+.reason-message-text {text-align:center;}
+.btn-disabled{background:#ccc;filter:grayscale(1);color:#00000066;cursor:wait;opacity: .7;}
+.btn-disabled:hover{background:#ccc;color:#00000066;}
+#api_log_detail h4{font-size:16px;font-weight:600}
+#api_log_detail pre{font-size:12px;font-family:inherit;white-space: pre-wrap; word-wrap: break-word;}
+.guncellebtn{width:220px;float:right;margin-top:25px}
+.ui-sortable .lbtn i{border:none;padding:0;margin:0}
+
+@media only screen and (min-width:320px) and (max-width:1024px) {
+    .lbtn{font-size:13px;margin:5px;text-align:left}
+    #verticaltabs #tab-module ul.tab{width:100%}
+    #verticaltabs .tabcontent{width:100%}
+    .mobyonbtn {font-size: 20px;padding: 4px 5px;}
+ 
+
+}

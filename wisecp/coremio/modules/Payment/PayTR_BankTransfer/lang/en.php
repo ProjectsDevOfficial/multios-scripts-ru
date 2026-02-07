@@ -1,0 +1,21 @@
+<?php 
+return [
+    'invoice-name'         => 'Bank Transfer (PAYTR)',
+    'option-name'          => 'Bank Transfer',
+    'name'                 => 'Bank Transfer (PAYTR)',
+    'turn-back'            => 'Back to Checkout',
+    'description'          => 'To collects payments through PAYTR Bank Transfer, you must obtain all the above required information from PAYTR.',
+    'merchant-id-desc'     => ' ',
+    'merchant-key-desc'    => ' ',
+    'merchant-salt-desc'   => ' ',
+    'test-mode'            => 'Test Mode',
+    'test-mode-desc'       => ' ',
+    'debug-mode'           => 'Debug Mode',
+    'debug-mode-desc'      => ' ',
+    'commission-rate'      => 'Commission Rate (%)',
+    'commission-rate-desc' => 'Enter the percentage (%) value for commission fees',
+    'notify-url'           => 'Notify URL',
+    'notify-url-desc'      => 'Copy and paste this information to the Notification URL field on the Paytr settings page. It is required to make these changes to record the payments into the system.',
+    'save-button'          => 'Save Settings',
+    'success1'             => 'Settings saved successfully.',
+];

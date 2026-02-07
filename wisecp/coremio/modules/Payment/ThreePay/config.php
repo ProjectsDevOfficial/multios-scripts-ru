@@ -1,0 +1,31 @@
+<?php 
+return [
+    'meta'     => [
+        'name'    => '3Pay (Wirecard)',
+        'version' => '1.0',
+        'logo'    => 'logo.svg',
+    ],
+    'settings' => [
+        'commission_rate'                   => 0,
+        'force_convert_to'                  => 0,
+        'accepted_countries'                => [],
+        'unaccepted_countries'              => [],
+        'pin'                               => '',
+        'user_code'                         => '',
+        'turkcell_service_id'               => '',
+        'credit_card_status'                => '1',
+        'credit_card_category'              => '1',
+        'credit_card_commission_fixed'      => '',
+        'credit_card_commission_percentage' => '',
+        'mobile_status'                     => '1',
+        'mobile_category'                   => '1',
+        'mobile_commission_fixed'           => '',
+        'mobile_commission_percentage'      => '',
+        'ttnet_status'                      => '1',
+        'ttnet_commission_fixed'            => '',
+        'ttnet_commission_percentage'       => '',
+        'notification_send_sms'             => false,
+        'notification_sms_successful'       => "\xc3\x96deme s\xc3\xbcreci ba\xc5\x9far\xc4\xb1l\xc4\xb1 bir \xc5\x9fekilde ger\xc3\xa7ekle\xc5\x9fti. \xc3\x96deme i\xc3\xa7in te\xc5\x9fekk\xc3\xbcr ederiz.",
+        'notification_sms_unsuccessful'     => "\xc3\x96deme yap\xc4\xb1l\xc4\xb1rken bir sorun olu\xc5\x9ftu. L\xc3\xbctfen daha sonra tekrar deneyiniz.",
+    ],
+];
