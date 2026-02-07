@@ -43,6 +43,66 @@ cat путь/к/скрипту.sh
 chmod +x путь/к/скрипту.sh
 ```
 
+## 📌 Скрипты репозитория
+
+Ниже — основные скрипты, присутствующие в репозитории, и пример запуска.
+
+- `linux/system/update-system.sh` — обновление системы (apt/dnf/yum). Запуск:
+
+```bash
+sudo ./linux/system/update-system.sh
+```
+
+- `linux/network/net-info.sh` — диагностика сети:
+
+```bash
+./linux/network/net-info.sh
+```
+
+- `linux/security/ssh-hardening.sh` — рекомендации по SSH; для автоматического применения:
+
+```bash
+sudo ./linux/security/ssh-hardening.sh --apply
+```
+
+- `vds-vps/providers/provider-example.sh` — пример запроса к API провайдера (требует `jq`):
+
+```bash
+./vds-vps/providers/provider-example.sh
+```
+
+- `vds-vps/monitoring/monitor-cpu-mem.sh` — базовый мониторинг CPU/Memory:
+
+```bash
+./vds-vps/monitoring/monitor-cpu-mem.sh
+```
+
+- `vds-vps/backup/backup-files.sh` — резервное копирование каталога (по умолчанию `/var/www`):
+
+```bash
+sudo ./vds-vps/backup/backup-files.sh /путь/к/директории
+```
+
+- `windows/powershell/get-disk-space.ps1` — экспорт дискового пространства (PowerShell):
+
+```powershell
+.\windows\powershell\get-disk-space.ps1
+```
+
+- `windows/batch/cleanup-temp.bat` — очистка временных файлов (Batch):
+
+```bat
+windows\batch\cleanup-temp.bat
+```
+
+- `windows/administration/create-local-user.ps1` — создание локального пользователя (PowerShell):
+
+```powershell
+.\windows\administration\create-local-user.ps1 -Username user -Password P@ssw0rd
+```
+
+Просматривайте скрипты перед запуском и запускайте в тестовом окружении.
+
 ## 🔧 Требования
 
 - **Linux**: Bash 4.0+, права sudo
